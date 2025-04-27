@@ -21,7 +21,7 @@ public class Jogador extends Lutador {
                 System.out.print("Digite o número do golpe: ");
                 opcao = Integer.parseInt(scanner.nextLine());
             } catch (NumberFormatException e) {
-                // Ignorar erro de input
+
             }
         }
 
@@ -33,7 +33,7 @@ public class Jogador extends Lutador {
             case 3:
                 return "uppercut";
             default:
-                return "jab"; // fallback
+                return "jab";
         }
     }
 }
